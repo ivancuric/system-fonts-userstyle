@@ -1,0 +1,23 @@
+@-moz-document domain("www.facebook.com"), domain("www.reddit.com"), domain("www.messenger.com"), domain("www.twitter.com"), domain("www.inoreader.com"), domain("news.ycombinator.com") {
+body,
+button,
+input,
+label,
+select,
+td,
+textarea,
+* {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+	text-rendering: optimizeLegibility !important;
+	font-feature-settings: "liga", "clig", "dlig", "kern";
+}
+}
+
+pre,
+code {
+	font-family: 'Input', 'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace !important;
+}
+body > pre,
+body > code {
+	font-size: 14px;
+}
