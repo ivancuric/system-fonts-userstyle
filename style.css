@@ -1,4 +1,4 @@
-@-moz-document domain("www.facebook.com"), domain("www.reddit.com"), domain("www.messenger.com"), domain("www.twitter.com"), domain("www.inoreader.com"), domain("news.ycombinator.com") {
+@-moz-document domain("facebook.com"), domain("reddit.com"), domain("messenger.com"), domain("twitter.com"), domain("inoreader.com"), domain("ycombinator.com") {
 body,
 button,
 input,
@@ -15,7 +15,8 @@ textarea,
 
 pre,
 code {
-	font-family: 'Input', 'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace !important;
+	font-family: 'Menlo', 'Consolas', 'DejaVu Sans Mono', monospace !important;
+	font-feature-settings: initial !important;
 }
 body > pre,
 body > code {
