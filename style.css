@@ -60,22 +60,6 @@ body {
 	src: local(Menlo), local(Consolas);
 }
 
-
-@font-face {
-	font-family: Verdana;
-	src: local(system-ui), local(-apple-system), local(Segoe UI);
-}
-
-@font-face {
-	font-family: Helvetica;
-	src: local(system-ui), local(-apple-system), local(Segoe UI);
-}
-
-@font-face {
-	font-family: Helvetica Neue;
-	src: local(system-ui), local(-apple-system), local(Segoe UI);
-}
-
 @font-face {
 	font-family: Arial;
 	font-style: normal;
