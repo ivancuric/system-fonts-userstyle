@@ -1,10 +1,7 @@
 # Use system fonts everywhere
 
-Uses the system font stack and enables ligatures on Twitter, Hacker News, Facebook, Reddit, Inoreader and Messenger.com.
+Uses the system font stack and enables ligatures on all sites. Also removes the horrible Courier New font.
 
-Also replaces the horrible Courier New font in `code` and `pre` blocks.
-
-Feel free to add your own.
 
 ![reddit](https://userstyles.org/style_screenshots/139930_after.png)
 
