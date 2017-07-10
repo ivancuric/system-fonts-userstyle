@@ -4,28 +4,28 @@ body {
 }
 
 @font-face {
-  font-family: Courier New;
+  font-family: 'Courier New';
   font-style: normal;
   font-weight: 400;
   src: local(Menlo), local(Consolas);
 }
 
 @font-face {
-  font-family: Courier New;
+  font-family: 'Courier New';
   font-style: normal;
   font-weight: 700;
   src: local(Menlo), local(Consolas);
 }
 
 @font-face {
-  font-family: Courier New;
+  font-family: 'Courier New';
   font-style: italic;
   font-weight: 400;
   src: local(Menlo), local(Consolas);
 }
 
 @font-face {
-  font-family: Courier New;
+  font-family: 'Courier New';
   font-style: italic;
   font-weight: 700;
   src: local(Menlo), local(Consolas);
