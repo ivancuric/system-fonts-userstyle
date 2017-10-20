@@ -4,7 +4,7 @@ const fontsToReplace = {
   mono: [
     'Courier',
     'Courier New',
-    'Andale Mono',
+    // 'Andale Mono',
   ],
   sans: [
     'Arial',
@@ -13,7 +13,7 @@ const fontsToReplace = {
     'Verdana',
     'Tahoma',
     'Trebuchet MS',
-    'Comic Sans MS',
+    // 'Comic Sans MS',
   ],
 };
 
@@ -41,15 +41,15 @@ const replacementFonts = {
   sans: [
     {
       family: '.SFNSText',
-      separator: '-',
+      separator: '',
       italic: 'Italic',
       weights: {
-        300: 'Light',
-        400: 'Regular',
-        500: 'Medium',
-        600: 'Semibold',
-        700: 'Bold',
-        900: 'Black',
+        300: '-Light',
+        400: '',
+        500: '-Medium',
+        600: '-Semibold',
+        700: '-Bold',
+        900: '-Black',
       },
     },
     {
@@ -119,14 +119,11 @@ let result = `body {
 }`;
 
 const nearestWeight = (familyWeights, requiredWeight) => {
-  let i = 0;
-  let nearest = 0;
   const weightsArr = Object.keys(familyWeights);
+  let i = 0;
+  let nearest = weightsArr[i];
 
-  while (
-    nearest <= requiredWeight &&
-    nearest < weightsArr[weightsArr.length - 1]
-  ) {
+  while (nearest < requiredWeight) {
     nearest = weightsArr[i];
     i++;
   }
