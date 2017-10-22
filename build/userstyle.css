@@ -6,959 +6,767 @@ body {
   font-family: "Courier";
   font-style: normal;
   font-weight: 300;
-  src: local("Menlo Regular"),local("Consolas");
+  src: local("Menlo-Regular"),local("Consolas");
 }
 @font-face {
   font-family: "Courier";
   font-style: italic;
   font-weight: 300;
-  src: local("Menlo Regular Italic"),local("Consolas Italic");
+  src: local("Menlo-Italic"),local("Consolas-Italic");
 }
 @font-face {
   font-family: "Courier";
   font-style: normal;
   font-weight: 400;
-  src: local("Menlo Regular"),local("Consolas");
+  src: local("Menlo-Regular"),local("Consolas");
 }
 @font-face {
   font-family: "Courier";
   font-style: italic;
   font-weight: 400;
-  src: local("Menlo Regular Italic"),local("Consolas Italic");
+  src: local("Menlo-Italic"),local("Consolas-Italic");
 }
 @font-face {
   font-family: "Courier";
   font-style: normal;
   font-weight: 500;
-  src: local("Menlo Bold"),local("Consolas");
+  src: local("Menlo-Bold"),local("Consolas-Bold");
 }
 @font-face {
   font-family: "Courier";
   font-style: italic;
   font-weight: 500;
-  src: local("Menlo Bold Italic"),local("Consolas Italic");
+  src: local("Menlo-BoldItalic"),local("Consolas-BoldItalic");
 }
 @font-face {
   font-family: "Courier";
   font-style: normal;
   font-weight: 700;
-  src: local("Menlo Bold"),local("Consolas");
+  src: local("Menlo-Bold"),local("Consolas-Bold");
 }
 @font-face {
   font-family: "Courier";
   font-style: italic;
   font-weight: 700;
-  src: local("Menlo Bold Italic"),local("Consolas Italic");
-}
-@font-face {
-  font-family: "Courier";
-  font-style: normal;
-  font-weight: 900;
-  src: local("Menloundefined"),local("Consolasundefined");
-}
-@font-face {
-  font-family: "Courier";
-  font-style: italic;
-  font-weight: 900;
-  src: local("Menloundefined Italic"),local("Consolasundefined Italic");
+  src: local("Menlo-BoldItalic"),local("Consolas-BoldItalic");
 }
 @font-face {
   font-family: "Courier";
   font-style: normal;
   font-weight: 300;
-  src: local("Menlo Regular"),local("Consolas");
+  src: local("Menlo-Regular"),local("Consolas");
 }
 @font-face {
   font-family: "Courier";
   font-style: italic;
   font-weight: 300;
-  src: local("Menlo Regular Italic"),local("Consolas Italic");
+  src: local("Menlo-Italic"),local("Consolas-Italic");
 }
 @font-face {
   font-family: "Courier";
   font-style: normal;
   font-weight: 400;
-  src: local("Menlo Regular"),local("Consolas");
+  src: local("Menlo-Regular"),local("Consolas");
 }
 @font-face {
   font-family: "Courier";
   font-style: italic;
   font-weight: 400;
-  src: local("Menlo Regular Italic"),local("Consolas Italic");
+  src: local("Menlo-Italic"),local("Consolas-Italic");
 }
 @font-face {
   font-family: "Courier";
   font-style: normal;
   font-weight: 500;
-  src: local("Menlo Bold"),local("Consolas");
+  src: local("Menlo-Bold"),local("Consolas-Bold");
 }
 @font-face {
   font-family: "Courier";
   font-style: italic;
   font-weight: 500;
-  src: local("Menlo Bold Italic"),local("Consolas Italic");
+  src: local("Menlo-BoldItalic"),local("Consolas-BoldItalic");
 }
 @font-face {
   font-family: "Courier";
   font-style: normal;
   font-weight: 700;
-  src: local("Menlo Bold"),local("Consolas");
+  src: local("Menlo-Bold"),local("Consolas-Bold");
 }
 @font-face {
   font-family: "Courier";
   font-style: italic;
   font-weight: 700;
-  src: local("Menlo Bold Italic"),local("Consolas Italic");
-}
-@font-face {
-  font-family: "Courier";
-  font-style: normal;
-  font-weight: 900;
-  src: local("Menloundefined"),local("Consolasundefined");
-}
-@font-face {
-  font-family: "Courier";
-  font-style: italic;
-  font-weight: 900;
-  src: local("Menloundefined Italic"),local("Consolasundefined Italic");
+  src: local("Menlo-BoldItalic"),local("Consolas-BoldItalic");
 }
 @font-face {
   font-family: "Courier New";
   font-style: normal;
   font-weight: 300;
-  src: local("Menlo Regular"),local("Consolas");
+  src: local("Menlo-Regular"),local("Consolas");
 }
 @font-face {
   font-family: "Courier New";
   font-style: italic;
   font-weight: 300;
-  src: local("Menlo Regular Italic"),local("Consolas Italic");
+  src: local("Menlo-Italic"),local("Consolas-Italic");
 }
 @font-face {
   font-family: "Courier New";
   font-style: normal;
   font-weight: 400;
-  src: local("Menlo Regular"),local("Consolas");
+  src: local("Menlo-Regular"),local("Consolas");
 }
 @font-face {
   font-family: "Courier New";
   font-style: italic;
   font-weight: 400;
-  src: local("Menlo Regular Italic"),local("Consolas Italic");
+  src: local("Menlo-Italic"),local("Consolas-Italic");
 }
 @font-face {
   font-family: "Courier New";
   font-style: normal;
   font-weight: 500;
-  src: local("Menlo Bold"),local("Consolas");
+  src: local("Menlo-Bold"),local("Consolas-Bold");
 }
 @font-face {
   font-family: "Courier New";
   font-style: italic;
   font-weight: 500;
-  src: local("Menlo Bold Italic"),local("Consolas Italic");
+  src: local("Menlo-BoldItalic"),local("Consolas-BoldItalic");
 }
 @font-face {
   font-family: "Courier New";
   font-style: normal;
   font-weight: 700;
-  src: local("Menlo Bold"),local("Consolas");
+  src: local("Menlo-Bold"),local("Consolas-Bold");
 }
 @font-face {
   font-family: "Courier New";
   font-style: italic;
   font-weight: 700;
-  src: local("Menlo Bold Italic"),local("Consolas Italic");
-}
-@font-face {
-  font-family: "Courier New";
-  font-style: normal;
-  font-weight: 900;
-  src: local("Menloundefined"),local("Consolasundefined");
-}
-@font-face {
-  font-family: "Courier New";
-  font-style: italic;
-  font-weight: 900;
-  src: local("Menloundefined Italic"),local("Consolasundefined Italic");
+  src: local("Menlo-BoldItalic"),local("Consolas-BoldItalic");
 }
 @font-face {
   font-family: "Courier New";
   font-style: normal;
   font-weight: 300;
-  src: local("Menlo Regular"),local("Consolas");
+  src: local("Menlo-Regular"),local("Consolas");
 }
 @font-face {
   font-family: "Courier New";
   font-style: italic;
   font-weight: 300;
-  src: local("Menlo Regular Italic"),local("Consolas Italic");
+  src: local("Menlo-Italic"),local("Consolas-Italic");
 }
 @font-face {
   font-family: "Courier New";
   font-style: normal;
   font-weight: 400;
-  src: local("Menlo Regular"),local("Consolas");
+  src: local("Menlo-Regular"),local("Consolas");
 }
 @font-face {
   font-family: "Courier New";
   font-style: italic;
   font-weight: 400;
-  src: local("Menlo Regular Italic"),local("Consolas Italic");
+  src: local("Menlo-Italic"),local("Consolas-Italic");
 }
 @font-face {
   font-family: "Courier New";
   font-style: normal;
   font-weight: 500;
-  src: local("Menlo Bold"),local("Consolas");
+  src: local("Menlo-Bold"),local("Consolas-Bold");
 }
 @font-face {
   font-family: "Courier New";
   font-style: italic;
   font-weight: 500;
-  src: local("Menlo Bold Italic"),local("Consolas Italic");
+  src: local("Menlo-BoldItalic"),local("Consolas-BoldItalic");
 }
 @font-face {
   font-family: "Courier New";
   font-style: normal;
   font-weight: 700;
-  src: local("Menlo Bold"),local("Consolas");
+  src: local("Menlo-Bold"),local("Consolas-Bold");
 }
 @font-face {
   font-family: "Courier New";
   font-style: italic;
   font-weight: 700;
-  src: local("Menlo Bold Italic"),local("Consolas Italic");
-}
-@font-face {
-  font-family: "Courier New";
-  font-style: normal;
-  font-weight: 900;
-  src: local("Menloundefined"),local("Consolasundefined");
-}
-@font-face {
-  font-family: "Courier New";
-  font-style: italic;
-  font-weight: 900;
-  src: local("Menloundefined Italic"),local("Consolasundefined Italic");
+  src: local("Menlo-BoldItalic"),local("Consolas-BoldItalic");
 }
 @font-face {
   font-family: "Arial";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Arial";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Arial";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Arial";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Arial";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Arial";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Arial";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Arial";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Arial";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }
 @font-face {
   font-family: "Arial";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Arial";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Arial";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Arial";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Arial";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Arial";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Arial";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Arial";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Arial";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Helvetica";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Helvetica";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Helvetica";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Helvetica Neue";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Helvetica Neue";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Helvetica Neue";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }
 @font-face {
   font-family: "Verdana";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Verdana";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Verdana";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Verdana";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Verdana";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Verdana";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Verdana";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Verdana";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Verdana";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Verdana";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }
 @font-face {
   font-family: "Verdana";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Verdana";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Verdana";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Verdana";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Verdana";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Verdana";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Verdana";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Verdana";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Verdana";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Verdana";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Tahoma";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Tahoma";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Tahoma";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Tahoma";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Tahoma";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Trebuchet MS";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Trebuchet MS";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"),local("Segoe UI");
+  src: local(".SFNSText-Light"),local("SegoeUI-Semilight");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: italic;
   font-weight: 300;
-  src: local(".SFNSText-LightItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-LightItalic"),local("SegoeUI-SemilightItalic");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 400;
-  src: local(".SFNSText"),local("Segoe UI");
+  src: local(".SFNSText"),local("SegoeUI");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: italic;
   font-weight: 400;
-  src: local(".SFNSTextItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-Italic"),local("SegoeUI-Italic");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 500;
-  src: local(".SFNSText-Medium"),local("Segoe UI");
+  src: local(".SFNSText-Medium"),local("SegoeUI-Semibold");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: italic;
   font-weight: 500;
-  src: local(".SFNSText-MediumItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-MediumItalic"),local("SegoeUI-SemiboldItalic");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 700;
-  src: local(".SFNSText-Bold"),local("Segoe UI");
+  src: local(".SFNSText-Bold"),local("SegoeUI-Bold");
 }
 @font-face {
   font-family: "Trebuchet MS";
   font-style: italic;
   font-weight: 700;
-  src: local(".SFNSText-BoldItalic"),local("Segoe UI Italic");
-}
-@font-face {
-  font-family: "Trebuchet MS";
-  font-style: normal;
-  font-weight: 900;
-  src: local(".SFNSText-Black"),local("Segoe UI");
-}
-@font-face {
-  font-family: "Trebuchet MS";
-  font-style: italic;
-  font-weight: 900;
-  src: local(".SFNSText-BlackItalic"),local("Segoe UI Italic");
+  src: local(".SFNSText-BoldItalic"),local("SegoeUI-BoldItalic");
 }

@@ -1,11 +1,7 @@
 const fs = require('fs-extra');
 
 const fontsToReplace = {
-  mono: [
-    'Courier',
-    'Courier New',
-    // 'Andale Mono',
-  ],
+  mono: ['Courier', 'Courier New'],
   sans: [
     'Arial',
     'Helvetica',
@@ -13,7 +9,6 @@ const fontsToReplace = {
     'Verdana',
     'Tahoma',
     'Trebuchet MS',
-    // 'Comic Sans MS',
   ],
 };
 
@@ -21,26 +16,31 @@ const replacementFonts = {
   mono: [
     {
       family: 'Menlo',
-      italic: ' Italic',
-      weights: {
-        400: ' Regular',
-        700: ' Bold',
+      regular: {
+        400: '-Regular',
+        700: '-Bold',
+      },
+      italic: {
+        400: '-Italic',
+        700: '-BoldItalic',
       },
     },
     {
       family: 'Consolas',
-      italic: ' Italic',
-      weights: {
+      regular: {
         400: '',
-        700: '',
+        700: '-Bold',
+      },
+      italic: {
+        400: '-Italic',
+        700: '-BoldItalic',
       },
     },
   ],
   sans: [
     {
       family: '.SFNSText',
-      italic: 'Italic',
-      weights: {
+      regular: {
         300: '-Light',
         400: '',
         500: '-Medium',
@@ -48,49 +48,34 @@ const replacementFonts = {
         700: '-Bold',
         900: '-Black',
       },
-    },
-    {
-      family: 'Segoe UI',
-      italic: ' Italic',
-      weights: {
-        200: '',
-        300: '',
-        400: '',
-        600: '',
-        700: '',
-        900: '',
+      italic: {
+        300: '-LightItalic',
+        400: '-Italic',
+        500: '-MediumItalic',
+        600: '-SemiboldItalic',
+        700: '-BoldItalic',
+        900: '-BlackItalic',
       },
     },
-    // {
-    //   family: 'Roboto',
-    //   italic: ' Italic',
-    //   weights: {
-    //     200: 'Light',
-    //     300: 'Semilight',
-    //     400: 'Regular',
-    //     500: 'Medium',
-    //     700: 'Bold',
-    //     900: 'Black',
-    //   },
-    // },
-    // {
-    //   family: 'Ubuntu',
-    //   italic: ' Italic',
-    //   weights: {
-    //     300: 'Light',
-    //     400: 'Regular',
-    //     500: 'Medium',
-    //     700: 'Bold',
-    //   },
-    // },
-    // {
-    //   family: 'Cantarell',
-    //   italic: ' Italic',
-    //   weights: {
-    //     400: 'Regular',
-    //     700: 'Bold',
-    //   },
-    // },
+    {
+      family: 'SegoeUI',
+      regular: {
+        200: '-Light',
+        300: '-Semilight',
+        400: '',
+        600: '-Semibold',
+        700: '-Bold',
+        900: '-Black',
+      },
+      italic: {
+        200: '-LightItalic',
+        300: '-SemilightItalic',
+        400: '-Italic',
+        600: '-SemiboldItalic',
+        700: '-BoldItalic',
+        900: '-BlackItalic',
+      },
+    },
   ],
 };
 
@@ -103,7 +88,7 @@ const weightsToBuild = [
   // 600,
   700,
   // 800,
-  900,
+  // 900,
 ];
 
 let result = `body {
@@ -114,12 +99,20 @@ let result = `body {
 const nearestWeight = (familyWeights, requiredWeight) => {
   const weightsArr = Object.keys(familyWeights);
   let i = 0;
-  let nearest = weightsArr[i];
+  let nearest = 100;
+  // console.log(weightsArr);
+  // console.log(requiredWeight);
 
   while (nearest < requiredWeight) {
-    nearest = weightsArr[i];
+    if (weightsArr[i]) {
+      nearest = weightsArr[i];
+    } else {
+      return weightsArr[i - 1];
+    }
     i++;
   }
+
+  // console.log(`result: ${nearest}`);
 
   return nearest;
 };
@@ -142,9 +135,9 @@ const generateLocalFamily = (weightValue, props, type, isItalic) =>
   replacementFonts[type]
     .map(
       props =>
-        `local("${props.family}${props.weights[
-          nearestWeight(props.weights, weightValue)
-        ]}${isItalic ? props.italic : ''}")`,
+        `local("${props.family}${isItalic
+          ? props.italic[nearestWeight(props.italic, weightValue)]
+          : props.regular[nearestWeight(props.regular, weightValue)]}")`,
     )
     .join(',');
 
