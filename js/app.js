@@ -21,27 +21,24 @@ const replacementFonts = {
   mono: [
     {
       family: 'Menlo',
-      separator: ' ',
       italic: ' Italic',
       weights: {
-        400: 'Regular',
-        700: 'Bold',
+        400: ' Regular',
+        700: ' Bold',
       },
     },
     {
-      family: 'Monaco',
-      separator: ' ',
+      family: 'Consolas',
       italic: ' Italic',
       weights: {
-        400: 'Regular',
-        700: 'Bold',
+        400: '',
+        700: '',
       },
     },
   ],
   sans: [
     {
       family: '.SFNSText',
-      separator: '',
       italic: 'Italic',
       weights: {
         300: '-Light',
@@ -54,20 +51,18 @@ const replacementFonts = {
     },
     {
       family: 'Segoe UI',
-      separator: ' ',
       italic: ' Italic',
       weights: {
-        200: 'Light',
-        300: 'Semilight',
-        400: 'Regular',
-        600: 'Semibold',
-        700: 'Bold',
-        900: 'Black',
+        200: '',
+        300: '',
+        400: '',
+        600: '',
+        700: '',
+        900: '',
       },
     },
     // {
     //   family: 'Roboto',
-    //   separator: ' ',
     //   italic: ' Italic',
     //   weights: {
     //     200: 'Light',
@@ -80,7 +75,6 @@ const replacementFonts = {
     // },
     // {
     //   family: 'Ubuntu',
-    //   separator: ' ',
     //   italic: ' Italic',
     //   weights: {
     //     300: 'Light',
@@ -91,7 +85,6 @@ const replacementFonts = {
     // },
     // {
     //   family: 'Cantarell',
-    //   separator: ' ',
     //   italic: ' Italic',
     //   weights: {
     //     400: 'Regular',
@@ -149,7 +142,7 @@ const generateLocalFamily = (weightValue, props, type, isItalic) =>
   replacementFonts[type]
     .map(
       props =>
-        `local("${props.family}${props.separator}${props.weights[
+        `local("${props.family}${props.weights[
           nearestWeight(props.weights, weightValue)
         ]}${isItalic ? props.italic : ''}")`,
     )
